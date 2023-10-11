@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Execution Context</title>
+</head>
+
+<body>
+    <h1>Execution Context</h1>
+    <p>When you run any JavaScript, a special environment is created to handle the transformation & execution of code.
+        This is called the <b>execution context</b>. It contains the currently running code and everything that aids in
+        its execution.</p>
+    <hr>
+    <p>There is a global execution context as well as a function execution context for every function invoked.</p>
+    <img src="./1.png" style="width: 500px;">
+    <h1>Execution Context Phases</h1>
+    <h3>Memory Creation Phase</h3>
+    <ol>
+        <li>Create the global object (browser = window, Node.js = global)</li>
+        <li>Create the 'this' object and bind it to the global object</li>
+        <li>Setup memory heap for storing variables and function references</li>
+        <li>Store functions and variables in global execution context and set to "undefined"</li>
+    </ol>
+    <h3>Execution Phase</h3>
+    <ol>
+        <li>Execute code line by line</li>
+        <li>Create a new execution context for each function call</li>
+    </ol>
+
+</body>
+
+</html>
