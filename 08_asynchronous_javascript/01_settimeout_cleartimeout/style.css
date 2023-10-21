@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: coral;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+button{
+    position: relative;
+}
+img{
+    width: 100vw;
+    background-color: rgb(211, 189, 160);
+
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTTP request</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>What is HTTP</h1>
+        <ol>
+            <li><strong>HyperText Transfer Protocol</strong> is the protocol for sending and receiving data on the web
+            </li>
+            <li>HTTP is <strong>client/server</strong> protocol. requests are initiated by the client (you) and the
+                server will response with a "response"</li>
+            <li>The response could be HTML, CSS, JS files, images and other resources as well data formatted as JSON or
+                XML</li>
+        </ol>
+        <h1>Making Requests From JavaScript</h1>
+        <ol>
+            <li>Many times, you will want to fetch some data and update a specific part of the DOM/webpage. We can do
+                this using JavaScript</li>
+            <li><strong>AJAX / XMLHttpRequest</strong> object was the original way of doing this, however, these days we
+                mostly use the <strong>fetch API</strong> that is available to us in the browser environment</li>
+        </ol>
+        <h1>HTTP Methods</h1>
+        <table>
+            <tr>
+                <td><strong>GET</strong> Request</td>
+                <td>---</td>
+                <td>Fetch / retrieve data from the server</td>
+            </tr>
+            <tr>
+                <td><strong>POST</strong> Request</td>
+                <td>---</td>
+                <td>Send data to the server</td>
+            </tr>
+            <tr>
+                <td><strong>PUT & PATCH</strong> Request</td>
+                <td>---</td>
+                <td>Update data on a server</td>
+            </tr>
+            <tr>
+                <td><strong>DELETE</strong> Request</td>
+                <td>---</td>
+                <td>Delete data from a server</td>
+            </tr>
+        </table>
+        <h1>HTTP Status Codes</h1>
+        <ul>
+            <li>100 Range --- Continue</li>
+            <li>200 Range --- Success</li>
+            <li>300 Range --- Redirects</li>
+            <li>400 Range --- Client Error</li>
+            <li>500 Range --- Server Error</li>
+        </ul>
+        <h3>Some example of HTTP Status Codes</h3>
+        <ul>
+            <li>200 --- Success</li>
+            <li>201 --- Created</li>
+            <li>204 --- No Content</li>
+            <li>301 --- Resource Moved</li>
+            <li>400 --- Bad Request</li>
+            <li>401 --- Unauthorized</li>
+            <li>403 --- Forbidden</li>
+            <li>404 --- Not Found</li>
+            <li>500 --- Error on server</li>
+        </ul>
+    </div>
+</body>
+
+</html>
